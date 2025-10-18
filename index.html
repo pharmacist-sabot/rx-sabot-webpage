@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>กลุ่มงานเภสัชกรรมฯ โรงพยาบาลสระโบสถ์</title>
+
+        <!-- Google Fonts (Prompt) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome (for Icons) -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+
+        <!-- Your CSS File -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fa-solid fa-prescription"></i>
+                    <div class="logo-text">
+                        <span class="logo-main">กลุ่มงานเภสัชกรรมฯ</span>
+                        <span class="logo-sub">โรงพยาบาลสระโบสถ์</span>
+                    </div>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html#hero" class="nav-link">หน้าหลัก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#tools" class="nav-link"
+                            >เครื่องมือ</a
+                        >
+                    </li>
+                    <!-- เพิ่มส่วนนี้เข้ามา -->
+                    <li class="nav-item">
+                        <a href="report.html" class="nav-link">รายงาน</a>
+                    </li>
+                    <!-- สิ้นสุดส่วนที่เพิ่ม -->
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">ติดต่อเรา</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <div id="overlay"></div>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section">
+                <div class="hero-content">
+                    <h1>Pharmacy Hub Sabot</h1>
+                    <p>
+                        ศูนย์รวมเครื่องมือและข้อมูลงานเภสัชกรรมฯ
+                        โรงพยาบาลสระโบสถ์
+                    </p>
+                    <a href="#tools" class="btn btn-primary">เริ่มต้นใช้งาน</a>
+                </div>
+            </section>
+
+            <!-- Tools/Services Section -->
+            <section id="tools" class="tools-section">
+                <h2>เครื่องมือและระบบงาน</h2>
+                <div class="tools-grid">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <i
+                            class="fa-solid fa-triangle-exclamation card-icon"
+                        ></i>
+                        <h3>MedSafety Net</h3>
+                        <p>ระบบบันทึกความคลาดเคลื่อนทางยา</p>
+                        <a
+                            href="https://script.google.com/macros/s/AKfycbyrXXZahRLu762PTxm72CtvF9UB9m6L5NNjdH7I06ARkSyJhBpc9O3fmse9SnHXR8Wi/exec"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >เปิดระบบ</a
+                        >
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <i class="fa-solid fa-file-signature card-icon"></i>
+                        <h3>ระบบบันทึกมูลค่ายาสนับสนุน</h3>
+                        <p>บันทึกมูลค่ายาสนับสนุนเช่น ยา TB วัคซีน</p>
+                        <a
+                            href="https://med-support-record.web.app/"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >เปิดระบบ</a
+                        >
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <i class="fa-solid fa-calculator card-icon"></i>
+                        <h3>โปรแกรมคำนวณยา Warfarin</h3>
+                        <p>เครื่องมือช่วยคำนวณขนาดยา Warfarin</p>
+                        <a
+                            href="https://sabot-warfarin-calculator.web.app/"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >เปิดโปรแกรม</a
+                        >
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <i class="fa-solid fa-child card-icon"></i>
+                        <h3>โปรแกรมคำนวณยาน้ำเด็ก</h3>
+                        <p>คำนวณขนาดยาน้ำสำหรับผู้ป่วยเด็กอย่างแม่นยำ</p>
+                        <a
+                            href="https://pedi-dose-c9cec.web.app/"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >เปิดโปรแกรม</a
+                        >
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="card">
+                        <i class="fa-solid fa-file-export card-icon"></i>
+                        <h3>ระบบดาวน์โหลดเอกสาร</h3>
+                        <p>ดาวน์โหลดเอกสาร กลุ่มงานเภสัชกรรมฯ รพ.สระโบสถ์</p>
+                        <a
+                            href="https://script.google.com/macros/s/AKfycbwA7S3gK4cNiwUdgi5FmD8Sh2A46kK-fHaZSjOHJVnTe-TvUAsSmygPjxUINPgMI3KI/exec"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >เปิดระบบ</a
+                        >
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="card">
+                        <i class="fa-solid fa-pills card-icon"></i>
+                        <h3>บัญชียาโรงพยาบาล</h3>
+                        <p>ตรวจสอบรายการยาที่มีใช้ในโรงพยาบาลสระโบสถ์</p>
+                        <a href="#" target="_blank" class="btn btn-secondary"
+                            >อยู่ระหว่างดำเนินการ</a
+                        >
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="card">
+                        <i class="fa-solid fa-book-medical card-icon"></i>
+                        <h3>บัญชียา High-Alert Drugs</h3>
+                        <p>รายการยาที่ต้องใช้ความระมัดระวังเป็นพิเศษ (HAD)</p>
+                        <a
+                            href="https://high-alert-drugs-sabot.web.app/"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >เปิดบัญชี</a
+                        >
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="card">
+                        <i class="fa-solid fa-notes-medical card-icon"></i>
+                        <h3>ระบบ DrugTracker</h3>
+                        <p>ระบบบันทึกและติดตามการสั่งซื้อยา</p>
+                        <a
+                            href="https://drug-tracker-system.web.app/"
+                            target="_blank"
+                            class="btn btn-secondary"
+                            >เปิดระบบ</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer id="footer">
+            <p>กลุ่มงานเภสัชกรรมฯ โรงพยาบาลสระโบสถ์</p>
+            <div class="footer-contact">
+                <span
+                    ><i class="fas fa-envelope"></i>
+                    pharmacistsabot@gmail.com</span
+                >
+                <span><i class="fas fa-phone"></i> 036-776240 ต่อ 104</span>
+            </div>
+            <p class="copyright">
+                © <span id="currentYear"></span> สงวนลิขสิทธิ์
+            </p>
+        </footer>
+
+        <!-- Your JS File -->
+        <script src="script.js"></script>
+    </body>
+</html>

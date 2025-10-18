@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "rx-sabot",
+    "rx-sabot": "rx-sabot"
+  },
+  "targets": {},
+  "etags": {}
+}
